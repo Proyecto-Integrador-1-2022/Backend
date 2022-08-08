@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  datasource:
+    url: jdbc:postgres://zbwockawixgbuo:be4dfa128809bd220a292c7485115d29855082ca778e3c6a12e2f5ff18cbdb08@ec2-54-225-234-165.compute-1.amazonaws.com:5432/d94lu6o5p27u3f
+
+    driver-class-name: org.postgresql.Driver
+    username: zbwockawixgbuo
+    password: be4dfa128809bd220a292c7485115d29855082ca778e3c6a12e2f5ff18cbdb08

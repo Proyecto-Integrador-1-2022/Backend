@@ -1,0 +1,14 @@
+# Server properties
+
+spring:
+
+  profiles:
+    active : heroku
+    application:
+      name: app-tour-hero
+      messages:
+        basename: bundles/apiLanguageBundle
+
+        logging:
+          level.root: INFO
+          file: heroapi.log
